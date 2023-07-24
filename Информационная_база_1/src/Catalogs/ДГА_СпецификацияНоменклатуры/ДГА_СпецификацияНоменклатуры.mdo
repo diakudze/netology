@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e630f95f-77cc-4e0e-9d27-f375da309e10">
+  <producedTypes>
+    <objectType typeId="6f5b0344-f5b5-449a-b78a-1f532bdb7cb7" valueTypeId="15a86f58-c06e-4199-8bfe-ca7b858b78b7"/>
+    <refType typeId="80cecad4-73fc-4b06-b8e8-2ec9f42a7dad" valueTypeId="93ee760f-4556-4abf-ac7b-13af7ee8605b"/>
+    <selectionType typeId="d57de1fd-ca93-4e2a-a8df-f74d418e33e6" valueTypeId="a6013438-1372-43bd-8cd9-5ebbc731e176"/>
+    <listType typeId="ea2253d5-8d88-480e-b82f-05df103761af" valueTypeId="2f24aa2b-cf69-487d-98cc-51d2f03d1643"/>
+    <managerType typeId="80fd0798-7f1c-4b8c-85b8-feb142ec2097" valueTypeId="18e54bdb-4442-43d5-9bbb-12bd7a85d52c"/>
+  </producedTypes>
+  <name>ДГА_СпецификацияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА спецификация номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДГА_СпецификацияНоменклатуры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДГА_СпецификацияНоменклатуры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Номенклатура</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="15e35537-5144-489d-9bc6-9a943a0df0f9">
+    <name>ВесЕд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес ед</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

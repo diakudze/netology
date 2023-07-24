@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adb594bc-d51f-48b1-bdaa-af33eddfa014">
+  <producedTypes>
+    <refType typeId="cddf6093-468f-4df8-94c2-dc9972896f57" valueTypeId="51f13070-8706-42ee-b3c4-83f0b68c4d35"/>
+    <listType typeId="c19ed282-0d29-4ccd-80dc-8226017f84f3" valueTypeId="875afd34-7bdb-45c2-8386-065d77277d01"/>
+    <managerType typeId="acd646a4-a187-4a90-8cca-accae5f9d68b" valueTypeId="27a2af0b-357c-454d-bb4a-7944e300aa31"/>
+  </producedTypes>
+  <name>ДГА_ВидыДолжностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА виды должностей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9691979d-7c71-42d4-bd24-f902f26f4190">
+    <name>МенеджерПоРаботеСКлиентами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по работе с клиентами</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="726fd483-cb51-49e9-8a0d-ba377dc55639">
+    <name>ГенеральныйДиректор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генеральный директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5784c88-38ce-42ad-b6c0-d46f974aac2b">
+    <name>МенеджерПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по продажам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac7d8c1d-7f69-4552-9d2b-3dc01f8cf303">
+    <name>НачальникСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник склада</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

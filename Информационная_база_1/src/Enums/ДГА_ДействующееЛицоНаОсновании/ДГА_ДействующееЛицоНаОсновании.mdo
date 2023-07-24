@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="937aaa52-15fb-46bc-8aa4-f545e5901eec">
+  <producedTypes>
+    <refType typeId="7e315736-990f-4b9c-8c07-8bcf55ff2665" valueTypeId="1b45d5f4-f07c-45fa-b586-386a3d1c90ad"/>
+    <listType typeId="7ad0021f-7a83-41b8-9a01-f6c9cf251c33" valueTypeId="b0159465-52fb-416e-916e-f663e299fc75"/>
+    <managerType typeId="34630532-82db-4351-b8fa-ad589f0f4ac7" valueTypeId="80f665a4-8625-4685-9ae7-44257cfb6fc4"/>
+  </producedTypes>
+  <name>ДГА_ДействующееЛицоНаОсновании</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА действующее лицо на основании</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86beab88-4dba-4f57-bdc1-12a2cd8d34d6">
+    <name>устава</name>
+    <synonym>
+      <key>ru</key>
+      <value>устава</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

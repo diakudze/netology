@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0501629-47a0-4835-ab25-3f8ba80f2422">
+  <producedTypes>
+    <managerType typeId="c05cfcd7-23d4-412c-86df-6afee41cbf91" valueTypeId="a234f4d2-e536-475c-a1c1-6bec062e839f"/>
+    <valueManagerType typeId="16354f3f-78d8-45a6-bb29-81db0d80b4f2" valueTypeId="23cca75c-aea5-4974-8e1e-1dd6e575ea88"/>
+    <valueKeyType typeId="737f60ba-f5c4-4cbb-a4cd-38ba1539712b" valueTypeId="558659bd-ed0c-46b1-982d-afa40398d071"/>
+  </producedTypes>
+  <name>ДГА_ГородОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА город организации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

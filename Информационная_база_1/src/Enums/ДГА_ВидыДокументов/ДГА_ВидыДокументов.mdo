@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7699c831-7d4f-4318-a0be-5b392e2f8cb3">
+  <producedTypes>
+    <refType typeId="0398ef58-b028-4954-baca-cfd4ef8b26be" valueTypeId="b58e736e-51e7-486e-96b4-fad62170fe77"/>
+    <listType typeId="23728c97-f947-4ac7-a839-414b6e1b9118" valueTypeId="ca169259-d02d-4beb-b2e8-b9dae9d7c0fc"/>
+    <managerType typeId="28326afa-b468-4489-b26c-c0976bedfa7f" valueTypeId="3efcca32-fbc6-46e1-8082-682909a45f2f"/>
+  </producedTypes>
+  <name>ДГА_ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДГА виды документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="297e897e-de2b-476d-83d6-095715b6a9fd">
+    <name>паспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ef27ed0-e175-4257-8016-c954a936bc46">
+    <name>ВодительскоеУдостоверение</name>
+    <synonym>
+      <key>ru</key>
+      <value>водительское удостоверение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08e457be-293f-4dde-95ea-a51c33a4612f">
+    <name>ВоенныйБилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>военный билет</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
